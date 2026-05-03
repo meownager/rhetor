@@ -1,0 +1,3 @@
+# Placeholder. The Next.js app is scaffolded in step 3 via:
+#   npx create-next-app@latest frontend --typescript --tailwind --app --no-src-dir
+# Doing it via the official scaffolder is safer than hand-writing config.
