@@ -1,0 +1,50 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# --- Node / Next.js ---
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.npm/
+.pnpm-store/
+
+# --- Env / secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Project data (NEVER commit) ---
+# User recordings, uploaded PDFs, downloaded models, SQLite DB.
+# These live in ~/Rhetor/data/ by default, but ignore here too as a safety net.
+data/
+models/
+*.sqlite
+*.sqlite3
+*.db
+
+# Test artifacts
+coverage/
+.coverage
+htmlcov/
+
+# Build outputs
+dist/
+build/
+
+# Local handoff package — not part of repo
+rhetor-starter-kit/
