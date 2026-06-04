@@ -10,7 +10,10 @@ readme = "../README.md"
 # Step 5 (Whisper)             adds: faster-whisper
 # Step 6 (LLM)                 adds: mlx-lm
 # Step 7 (PDF + embeddings)    adds: pymupdf, sentence-transformers
-dependencies = []
+dependencies = [
+    "fastapi>=0.136.3",
+    "uvicorn>=0.49.0",
+]
 
 [project.optional-dependencies]
 dev = [
